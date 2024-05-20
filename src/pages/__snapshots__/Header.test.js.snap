@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Render Header component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        class="flex items-center justify-between flex-wrap bg-teal-500 p-6"
+      >
+        <div
+          class="flex items-center flex-shrink-0 text-white mr-6"
+        >
+          <span
+            class="font-semibold text-xl tracking-tight"
+            data-testid="heading"
+          >
+            Employee polls
+          </span>
+        </div>
+        <div
+          class="block lg:hidden"
+        >
+          <button
+            class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+          >
+            <svg
+              class="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>
+                Menu
+              </title>
+              <path
+                d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="w-full block flex-grow lg:flex lg:items-center lg:w-auto"
+        >
+          <div
+            class="text-sm lg:flex-grow"
+          >
+            <a
+              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 text-xl cursor-pointer"
+              href="/"
+            >
+              Home
+            </a>
+            <a
+              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 text-xl cursor-pointer"
+              href="/leaderboard"
+            >
+              Leaderboard
+            </a>
+            <a
+              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white text-xl cursor-pointer"
+              href="/new"
+            >
+              New
+            </a>
+          </div>
+          <div>
+            <img
+              alt="Profile"
+              class="h-8 w-8 inline"
+            />
+            <span
+              class="font-medium px-3 py-2 text-white"
+              data-testid="userName"
+            >
+              tylermcginnis
+            </span>
+            <button
+              class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
+            >
+              Logout
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="flex items-center justify-between flex-wrap bg-teal-500 p-6"
+    >
+      <div
+        class="flex items-center flex-shrink-0 text-white mr-6"
+      >
+        <span
+          class="font-semibold text-xl tracking-tight"
+          data-testid="heading"
+        >
+          Employee polls
+        </span>
+      </div>
+      <div
+        class="block lg:hidden"
+      >
+        <button
+          class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+        >
+          <svg
+            class="fill-current h-3 w-3"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>
+              Menu
+            </title>
+            <path
+              d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="w-full block flex-grow lg:flex lg:items-center lg:w-auto"
+      >
+        <div
+          class="text-sm lg:flex-grow"
+        >
+          <a
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 text-xl cursor-pointer"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 text-xl cursor-pointer"
+            href="/leaderboard"
+          >
+            Leaderboard
+          </a>
+          <a
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white text-xl cursor-pointer"
+            href="/new"
+          >
+            New
+          </a>
+        </div>
+        <div>
+          <img
+            alt="Profile"
+            class="h-8 w-8 inline"
+          />
+          <span
+            class="font-medium px-3 py-2 text-white"
+            data-testid="userName"
+          >
+            tylermcginnis
+          </span>
+          <button
+            class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
+          >
+            Logout
+          </button>
+        </div>
+      </div>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
