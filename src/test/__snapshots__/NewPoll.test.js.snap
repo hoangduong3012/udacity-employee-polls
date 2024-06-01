@@ -1,0 +1,438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App will match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <nav
+          class="bgg navbar navbar-expand-sm navbar-dark"
+        >
+          <button
+            aria-controls="navbarScroll"
+            aria-label="Toggle navigation"
+            class="navbar-toggler collapsed"
+            data-bs-target="#navbarScroll"
+            data-bs-toggle="collapse"
+            type="button"
+          >
+            <span
+              class="navbar-toggler-icon"
+            />
+          </button>
+          <span
+            class="p-3 navbar-brand"
+          >
+            Web Poll App
+          </span>
+          <div
+            class="navbar-collapse collapse"
+            id="navbarScroll"
+          >
+            <div
+              class="container"
+            >
+              <div
+                class="navbar-nav"
+              >
+                <a
+                  class="nav-link"
+                  href="/"
+                >
+                  Home
+                </a>
+                <a
+                  class="nav-link"
+                  href="/leaderboard"
+                >
+                  Leaderboard
+                </a>
+                <a
+                  class="nav-link"
+                  href="/add"
+                >
+                  New
+                </a>
+                <div
+                  class="justify-content-end navbar-collapse collapse"
+                >
+                  <span
+                    class="p-2 navbar-text"
+                  >
+                    Signed in as: 
+                    <img
+                      alt="Avatar"
+                      class="rounded-circle p-2"
+                      height="37"
+                      loading="lazy"
+                      src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp"
+                    />
+                  </span>
+                  <span
+                    class="navbar-text"
+                  >
+                    <button
+                      class="btn btn-outline-warning btn-sm"
+                      data-testid="logout-button"
+                      type="button"
+                    >
+                      <span
+                        class="ml-3"
+                      >
+                        signout
+                      </span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div
+          class="text-center p-5 new-container container"
+        >
+          <h2>
+            Would you rather?
+          </h2>
+          <form
+            class="form"
+          >
+            <div
+              class="mb-3"
+            >
+              <label
+                class="form-label"
+                for="formGroupExampleInput"
+              >
+                Poll option One
+              </label>
+              <input
+                class="form-control"
+                data-testid="optionOne"
+                id="optionOne"
+                name="optionOne"
+                placeholder="Option One"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="mb-3"
+            >
+              <label
+                class="form-label"
+                for="formGroupExampleInput2"
+              >
+                Poll option Two
+              </label>
+              <input
+                class="form-control"
+                data-testid="optionTwo"
+                id="optionTwo"
+                name="optionTwo"
+                placeholder="Option Two"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+            <input
+              data-testid="submitButton"
+              type="submit"
+              value="submit"
+            />
+          </form>
+        </div>
+        <div>
+          <footer
+            class="bgg"
+          >
+            <div
+              class="footer-contents container"
+            >
+              <div>
+                <a
+                  class="childs nav-link"
+                  href="/"
+                >
+                  Home
+                </a>
+                <a
+                  class="childs nav-link"
+                  href="/leaderboard"
+                >
+                  Leaderboard
+                </a>
+                <a
+                  class="childs nav-link"
+                  href="/addPoll"
+                >
+                  New
+                </a>
+                <a
+                  class="childs nav-link"
+                  href="/FAQs"
+                >
+                  FAQs
+                </a>
+                <a
+                  class="childs nav-link"
+                  href="/addPoll"
+                >
+                  About
+                </a>
+              </div>
+              <hr />
+              <div>
+                © 2024 Hoang Bui Company, Inc
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <nav
+        class="bgg navbar navbar-expand-sm navbar-dark"
+      >
+        <button
+          aria-controls="navbarScroll"
+          aria-label="Toggle navigation"
+          class="navbar-toggler collapsed"
+          data-bs-target="#navbarScroll"
+          data-bs-toggle="collapse"
+          type="button"
+        >
+          <span
+            class="navbar-toggler-icon"
+          />
+        </button>
+        <span
+          class="p-3 navbar-brand"
+        >
+          Web Poll App
+        </span>
+        <div
+          class="navbar-collapse collapse"
+          id="navbarScroll"
+        >
+          <div
+            class="container"
+          >
+            <div
+              class="navbar-nav"
+            >
+              <a
+                class="nav-link"
+                href="/"
+              >
+                Home
+              </a>
+              <a
+                class="nav-link"
+                href="/leaderboard"
+              >
+                Leaderboard
+              </a>
+              <a
+                class="nav-link"
+                href="/add"
+              >
+                New
+              </a>
+              <div
+                class="justify-content-end navbar-collapse collapse"
+              >
+                <span
+                  class="p-2 navbar-text"
+                >
+                  Signed in as: 
+                  <img
+                    alt="Avatar"
+                    class="rounded-circle p-2"
+                    height="37"
+                    loading="lazy"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp"
+                  />
+                </span>
+                <span
+                  class="navbar-text"
+                >
+                  <button
+                    class="btn btn-outline-warning btn-sm"
+                    data-testid="logout-button"
+                    type="button"
+                  >
+                    <span
+                      class="ml-3"
+                    >
+                      signout
+                    </span>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="text-center p-5 new-container container"
+      >
+        <h2>
+          Would you rather?
+        </h2>
+        <form
+          class="form"
+        >
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="formGroupExampleInput"
+            >
+              Poll option One
+            </label>
+            <input
+              class="form-control"
+              data-testid="optionOne"
+              id="optionOne"
+              name="optionOne"
+              placeholder="Option One"
+              required=""
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="formGroupExampleInput2"
+            >
+              Poll option Two
+            </label>
+            <input
+              class="form-control"
+              data-testid="optionTwo"
+              id="optionTwo"
+              name="optionTwo"
+              placeholder="Option Two"
+              required=""
+              type="text"
+              value=""
+            />
+          </div>
+          <input
+            data-testid="submitButton"
+            type="submit"
+            value="submit"
+          />
+        </form>
+      </div>
+      <div>
+        <footer
+          class="bgg"
+        >
+          <div
+            class="footer-contents container"
+          >
+            <div>
+              <a
+                class="childs nav-link"
+                href="/"
+              >
+                Home
+              </a>
+              <a
+                class="childs nav-link"
+                href="/leaderboard"
+              >
+                Leaderboard
+              </a>
+              <a
+                class="childs nav-link"
+                href="/addPoll"
+              >
+                New
+              </a>
+              <a
+                class="childs nav-link"
+                href="/FAQs"
+              >
+                FAQs
+              </a>
+              <a
+                class="childs nav-link"
+                href="/addPoll"
+              >
+                About
+              </a>
+            </div>
+            <hr />
+            <div>
+              © 2024 Hoang Bui Company, Inc
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

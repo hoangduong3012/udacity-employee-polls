@@ -1,41 +1,51 @@
-import React, {useEffect} from 'react';
-import './App.css';
-import Nav from "./pages/Header";
-import {Route, Routes} from "react-router-dom";
-import Home from "./pages/Home";
-import NewPoll from "./pages/polls/NewPoll";
-import PollPage from "./pages/polls/PollPage";
-import {connect} from "react-redux";
-import Login from "./pages/Login";
-import Leaderboard from "./pages/Leaderboard";
-import Error404 from "./pages/404";
-import Router from "./pages/Router";
-import Footer from './pages/Footer';
-import { initialData } from './service/actions/shared';
+import { useEffect, Fragment } from "react";
+import { connect } from "react-redux";
+import { handleInitialData } from "./actions/shared";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./style/App.css"
 
-function App({dispatch, loggedIn}) {
-    useEffect(() => {
-        dispatch(initialData());
-    });
+// import LoadingBar from "react-redux-loading-bar";
+import { Routes, Route } from "react-router-dom";
+import PrivateRoutes from "./utils/PrivateRoutes";
+import Dashboard from "./component/Dashboard";
+import Login from './component/auth/Login';
+import PollPage from './component/poll/PollPage';
+import NewPoll from './component/poll//NewPoll';
+import Leaderboard from './component/Leaderboard';
+import ErrorPage from "./component/common/ErrorPage";
+import NavigationBar from "./component/common/NavigationBar";
 
-    return (
-        <div className="flex flex-col h-screen">
-            {loggedIn && <Nav/>}
-            <Routes>
-                <Route path="/login" exact element={<Login/>}/>
-                <Route path="/" element={<Router><Home/></Router>}/>
-                <Route path="/leaderboard" exact element={<Router><Leaderboard/></Router>}/>
-                <Route path="/questions/:id" element={<Router><PollPage/></Router>}/>
-                <Route path="/new" exact element={<Router><NewPoll/></Router>}/>
-                <Route path='*' element={<Error404 />} />
-            </Routes>
-            <Footer/>
-        </div>
-    );
-}
+const App = (props) => {
+  useEffect(() => {
+    props.dispatch(handleInitialData());
+  }, []);
+  return (
+    <Fragment>
+      <div>
+        {props.loading === true ? null : (
+          <Routes>
+          <Route path="/navigation" element={<NavigationBar />}/> 
+            <Route path="/login" element={<Login />}/> 
+            <Route element={<PrivateRoutes />}>
+                <Route element={<Dashboard/>} path="/" exact/>  
+                <Route path="/questions/:id" element={<PollPage />} />
+                <Route element={<NewPoll/>} path="/addPoll"/>
+                <Route element={<Leaderboard/>} path="/leaderboard"/>        
+                <Route element={<ErrorPage/>} path="/*"/>
+            </Route>
+          </Routes>
+        )}
+      </div>
+    </Fragment>
+  );
+};
 
-const mapStateToProps = ({authedUser}) => ({
-    loggedIn: !!authedUser,
+const mapStateToProps = ({ dispatch, authUser, users, questions }) => ({
+  dispatch,
+  users,
+  questions,
+  authUser,
+  loading: users === null,
 });
 
 export default connect(mapStateToProps)(App);

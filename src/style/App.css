@@ -1,0 +1,148 @@
+* {
+  list-style: none;
+}
+/* form style */
+.Auth-form-container {
+  display: flex;
+  background-image: url("https://snacknation.com/blog/employee-engagement-survey/");
+  justify-content: center;
+  align-items: center;
+  float: inline-end;
+  width: 100vw;
+  height: 75vh;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.login-wrapper {
+  height: 80vh;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+
+/* Navigation style */
+
+.card-lists {
+  height: fit-content;
+}
+.new-container {
+  height: 75vh;
+}
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.options-container {
+  padding: 25px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.vote-option {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px green;
+  border-radius: 4px;
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+  background: white;
+  width: 400px;
+  height: 20px;
+}
+.vote-option:hover {
+  background: rgb(129, 236, 240);
+}
+.vote-submit-button {
+  width: 370px;
+  height: 34px;
+  color: #fff;
+}
+/* Leaderboard styling */
+
+.leaderboard-container {
+  width: 100%;
+  padding: 45px;
+  display: table;
+  align-content: center;
+  padding-left: 45px;
+}
+.table {
+  width: 70%;
+  border: 1px solid;
+  padding: 50px 0;
+  
+}
+.thead {
+  padding: 5px;
+  margin: 10px;
+  font-weight: 250px;
+  text-decoration: none;
+  font-size: large;
+  background-color: #c2c0ca;
+}
+.leaderboard-users-avatar {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+.td {
+  margin: 7px;
+  border: 1px dotted #999999;
+}
+.table-user-span {
+  display: flex;
+}
+.tr {
+  border: 1px solid #999999;
+}
+.poll-title {
+  margin: 10px;
+}
+.sectionnn {
+margin-bottom: 40px;
+}
+.voted-option-one {
+  background: green;
+}
+.bgg {
+  background: #0B2435;
+}
+
+.footer-contents {
+  background: #0B2435;
+  display: block;
+  justify-content: center;
+  color: #fff;
+}
+.footer-contents div {
+  display: flex;
+  justify-content: center;
+}
+.childs {
+  padding: 5px;
+  margin: 3px;
+}
